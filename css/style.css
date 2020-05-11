@@ -16,7 +16,7 @@ img{
 }
 
 .main-modal {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100vh;
 	top: 0;
@@ -53,13 +53,14 @@ div{
     text-decoration: none;
     color: black;
     font-size: 20px;
-    cursor: pointer;
+   
 }
 
 h4{
     margin: 0;
     margin-bottom: 5px;
     color: black;
+    cursor: pointer;
 }
 
 .text-modal{
